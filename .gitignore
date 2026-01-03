@@ -21,6 +21,7 @@ sdist/
 var/
 wheels/
 *.egg-info/
+syrk.egg-info/
 .installed.cfg
 *.egg
 
