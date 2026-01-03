@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "syrk"
-version = "0.1.0"
+version = "0.1.1"
 description = "A multi-backend SYRK (Symmetric Rank-K Update) implementation"
 readme = "README.md"
 license = {text = "MIT"}
@@ -29,6 +29,8 @@ classifiers = [
 
 dependencies = [
     "torch>=2.0.0",
+    "absl-py>=1.0.0",
+    "numpy>=1.20.0",
 ]
 
 [project.optional-dependencies]
